@@ -34,7 +34,16 @@ Content-Type: application/json
 Authorization: Bearer setYourSuperSecretMasterTokenHere
 
 {
+    "username": "aam",
+    "password": "aam"
+}
+
+###
+POST http://localhost:3000/auth
+Content-Type: application/json
+Authorization: Bearer setYourSuperSecretMasterTokenHere
+
+{
     "username": "usnu",
     "password": "thisisobviouslynotmypassword"
 }
-
