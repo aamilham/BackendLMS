@@ -6,7 +6,7 @@ const morgan = require('morgan');
 
 app.use(morgan('dev'));
 app.use(express.json());
-app.use(cors({ origin: 'http://localhost' }));
+app.use(cors({ origin: 'http://localhost:3001' }));
 app.use('/', routes);
 
 app.listen(3000, () => console.log('Listening http://localhost:3000'));
